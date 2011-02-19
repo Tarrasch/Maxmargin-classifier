@@ -5,5 +5,10 @@
             and  yi is ±1 depending in group it belongs in
             
             We simply represent that multiset as X[n][d] and Y[n] 
-}%
+%}
+
+load(['excercise1']);
+
+X = train_data;
+Y = train_label;
 
