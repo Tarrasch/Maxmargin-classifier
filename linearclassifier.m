@@ -7,13 +7,14 @@
             We simply represent that multiset as X[n][d] and Y[n] 
 %}
 
+% Load data and assign fine names to variables
 load(['excercise1']);
-
 X = train_data;
 Y = train_label;
 [n, d] = size(X);
 
 
+% Solve optimization problem
 cvx_begin
     variable delta
     variable w(d)
@@ -23,3 +24,7 @@ cvx_begin
         d >= 0;
         Y.*(w'*X' - b)' >= 1 - delta;
 cvx_end
+
+
+% Plot on a graph
+
