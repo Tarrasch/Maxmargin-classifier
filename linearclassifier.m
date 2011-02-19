@@ -27,4 +27,6 @@ cvx_end
 
 
 % Plot on a graph
+plot(X,'.')
+
 
