@@ -11,4 +11,5 @@ load(['excercise1']);
 
 X = train_data;
 Y = train_label;
+[n, d] = size(X);
 
