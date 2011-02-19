@@ -13,3 +13,13 @@ X = train_data;
 Y = train_label;
 [n, d] = size(X);
 
+
+cvx_begin
+    variable delta
+    variable w(d)
+    variable b 
+    minimize ( delta )
+    subject to
+        d >= 0;
+        Y.*(w'*X' - b)' >= 1 - delta;
+cvx_end
