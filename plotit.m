@@ -9,6 +9,6 @@ for i = 1:n
 end
 hold on
 x = [0 8];
-y = -(w(1)*x-b)/w(2);
+y = (b-w(1)*x)/w(2);
 plot(x,y, 'g')
 hold off

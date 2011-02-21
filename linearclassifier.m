@@ -19,7 +19,7 @@ clear train_data train_label;
 cvx_begin
     variable delta
     variable w(d)
-    variable b 
+    variable b
     minimize ( delta )
     subject to
         Y.*(w'*X' - b)' >= 1 - delta;

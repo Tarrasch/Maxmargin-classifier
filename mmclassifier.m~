@@ -8,27 +8,23 @@
 %}
 
 % Load data and assign fine names to variables
-load(['excercise1']);
+load('excercise1');
 X = train_data;
 Y = train_label;
+clear train_data train_label;
 [n, d] = size(X);
 
-c
-
+C = 1;
+for C = 
 % Solve optimization problem
 cvx_begin
     variable xi(n)
     variable w(d)
     variable b 
-    minimize ( norm(w)/2 + C*xi )
+    minimize ( norm(w)/2 + C*sum(xi) )
     subject to
         Y.*(w'*X' - b)' >= 1 - xi;
         xi >= 0;
-%        w(1) + w(2) >= 1;
 cvx_end
 
-
-% Plot on a graph
-plot(X,'.')
-hold on
-hold off
+plotit;
