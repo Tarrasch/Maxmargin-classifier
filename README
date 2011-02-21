@@ -11,6 +11,7 @@ Question 1:
 Question 2:
    
     I've plotted and printscreened the plot. See plot_classifiers.png.
+    I've highlighted the dots by circling them.
 
     The linearclassifier just outputs a garbage line, and it's easy to see
     in many ways. Firstly you see it on the plotted graph, secondly
@@ -26,12 +27,34 @@ Question 2:
 Question 3:
 
     The hard classifiers creates no line. w = [NaN NaN]'.
-    It simlpy impossible to have al dots over at one side of ANY line.
+    Its simlpy impossible to have all dots over at one side of ANY line.
     
-    As for experimenting with the C value. I notice that 
+    As for experimenting with the C value. I experiment with both
+    very small and very large C:
     
+        * The given line for C = 1 is the same as for C = 1e40, even though
+          the cvx solver repors no solution. And it also gives the same line
+          (by same i mean same when inspected on the plot) for any value of
+          C >= 1. That means C = 1 is quite high.
+          
+        * For low C, it also acts in an unexpected way, the new tactic relies
+          on to 'fight off' the constraints simply by eliminating them with
+          xi. Furthermore it decides to put w = 0 and b = 1 so it only needs
+          to 'fight off' 44 constraints instead of 99 half constraints. The lhs
+          will be 1 on 45 constraints if b = 1 and Y for those constraints is 1.
+          When it takes care for the 44 constraints it simply puts xi = 2 for
+          those constraints.
+          
+          Normally you would expect normal behaviour in having all lhs almost
+          equal to 1 simlpy by seperating the lines. But with such a veery low
+          punishment it decides to satisfy the constraints in a way that
+          produces a pure garbage resulting line.
     
-
+    As for sensibles C, that is C is between 0.01 and 1, we get results like
+    are fine looking, I've plotted 3 lines, C = 0.01, 0.1 and 1 in the same
+    plot, please see:
+    (Gree line <=> C = 0.01, red <=> C = 1)
+    You can reproduce the screenshot by running experimentc.m.
 
 
 

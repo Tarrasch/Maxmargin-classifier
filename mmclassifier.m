@@ -14,7 +14,7 @@ Y = train_label;
 clear train_data train_label;
 [n, d] = size(X);
 
-C = 1;
+C = 0.0001;
 
 % Solve optimization problem
 cvx_begin
@@ -29,6 +29,7 @@ cvx_begin
 cvx_end
 
 % Plot on a graph
+plot(0,0);
 hold on
 for i = 1:n
     if Y(i) > 0

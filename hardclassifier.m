@@ -34,7 +34,7 @@ for i = 1:n
     else
         plot(X(i,1),X(i,2),'r.')
     end
-    if alpha(i) > eps
+    if alpha(i) > eps+0.00001
         plot(X(i,1),X(i,2),'ko')
     end
 end

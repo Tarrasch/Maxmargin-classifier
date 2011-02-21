@@ -24,7 +24,7 @@ for i = 1:n
     end
 end
 
-for i = -2:2
+for i = -2:0
     C = 10^i;
 
     % Solve optimization problem
@@ -42,7 +42,7 @@ for i = -2:2
     hold on
     x = [0 8];
     y = (b-w(1)*x)/w(2);
-    plot(x,y, 'color', [(i+2)/4 (2-i)/4 0])
+    plot(x,y, 'color', [(i+2)/2 (-i)/2 0])
     hold off
 
 end
