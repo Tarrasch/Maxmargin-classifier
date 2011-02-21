@@ -21,10 +21,27 @@ cvx_begin
     variable xi(n)
     variable w(d)
     variable b 
+    dual variables alpha rho
     minimize ( norm(w)/2 + C*sum(xi) )
     subject to
-        Y.*(w'*X' - b)' >= 1 - xi;
-        xi >= 0;
+        alpha : Y.*(w'*X' - b)' >= 1 - xi;
+        rho   : xi >= 0;
 cvx_end
 
-plotit;
+% Plot on a graph
+hold on
+for i = 1:n
+    if Y(i) > 0
+        plot(X(i,1),X(i,2),'.')
+    else
+        plot(X(i,1),X(i,2),'r.')
+    end
+    if alpha(i) > eps
+        plot(X(i,1),X(i,2),'ko')
+    end
+end
+hold on
+x = [0 8];
+y = (b-w(1)*x)/w(2);
+plot(x,y, 'g')
+hold off
