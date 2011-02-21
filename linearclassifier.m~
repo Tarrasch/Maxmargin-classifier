@@ -21,9 +21,8 @@ cvx_begin
     variable b 
     minimize ( delta )
     subject to
-        Y.*(w'*X' - b)' >= 1 - delta;
         d >= 0;
-%        w(1) + w(2) >= 1;
+        Y.*(w'*X' - b)' >= 1 - delta;
 cvx_end
 
 w
