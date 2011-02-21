@@ -21,15 +21,25 @@ cvx_begin
     variable xi(n)
     variable w(d)
     variable b 
-    minimize ( norm(w)/2 + C*xi )
+    minimize ( norm(w)/2 + C*sum(xi) )
     subject to
         Y.*(w'*X' - b)' >= 1 - xi;
         xi >= 0;
-%        w(1) + w(2) >= 1;
 cvx_end
 
+w 
+b
 
 % Plot on a graph
-plot(X,'.')
 hold on
+for i = 1:n
+    if Y(i) > 0
+        plot(X(i,1),X(i,2),'.')
+    else
+        plot(X(i,1),X(i,2),'r.')
+    end
+end
+x = [0 100];
+y = -(w(1)*x+b)/w(2);
+%plot(x,y)
 hold off
