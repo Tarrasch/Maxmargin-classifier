@@ -9,8 +9,20 @@ Question 1:
     The results of running on the testdata is described below (in Q2)
     
 Question 2:
+   
+    I've plotted and printscreened the plot. See plot_classifiers.png.
 
-    The linearclassifier just outputs a garbage line, and i 
+    The linearclassifier just outputs a garbage line, and it's easy to see
+    in many ways. Firstly you see it on the plotted graph, secondly
+    it puts delta = 1 and w to be very small. Therfor all equestion just say
+    almost 0 >= 0, it's not exactly zeroes but rounding errors make it so.
+    
+    The max margin classifier with soft margins is however interesting.
+    It's plotted as Q2 describes in the same screenshot plot_classifiers.png.
+    
+    To reproduce the graphs itself, just run linearclassier AND mmclassifier
+    without clearing the graph inbetween.
+    
     
 
 
