@@ -18,14 +18,12 @@ C = 1;
 
 % Solve optimization problem
 cvx_begin
-    variable xi(n)
     variable w(d)
     variable b 
     dual variables alpha rho
-    minimize ( norm(w)/2 + C*sum(xi) )
+    minimize ( norm(w)/2)
     subject to
-        alpha : Y.*(w'*X' - b)' >= 1 - xi;
-        rho   : xi >= 0;
+        alpha : Y.*(w'*X' - b)' >= 1;
 cvx_end
 
 % Plot on a graph
@@ -36,7 +34,7 @@ for i = 1:n
     else
         plot(X(i,1),X(i,2),'r.')
     end
-    if alpha(i) > 0.0000001
+    if alpha(i) > eps+0.00001
         plot(X(i,1),X(i,2),'ko')
     end
 end

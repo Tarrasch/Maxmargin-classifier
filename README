@@ -23,7 +23,12 @@ Question 2:
     To reproduce the graphs itself, just run linearclassier AND mmclassifier
     without clearing the graph inbetween.
     
+Question 3:
 
+    The hard classifiers creates no line. w = [NaN NaN]'.
+    It simlpy impossible to have al dots over at one side of ANY line.
+    
+    As for experimenting with the C value. I notice that 
     
     
 
