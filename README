@@ -2,7 +2,13 @@ Max-margin classifier
 
 This is a document that answers the questions in the.
 
+Question 1:
 
+    I implemented both classifiers, linearclassifier.m and mmclassifier.m.
+
+    The results of running on the testdata is described below (in Q2)
+    
+    
 
 
 
