@@ -8,7 +8,7 @@
 %}
 
 % Load data and assign fine names to variables
-load(['excercise1']);
+load('excercise1');
 X = train_data;
 Y = train_label;
 clear train_data train_label;
