@@ -39,7 +39,8 @@ for i = 1:n
         plot(X(i,1),X(i,2),'r.')
     end
 end
-x = [0 100];
+hold on
+x = [0 8];
 y = -(w(1)*x+b)/w(2);
-%plot(x,y)
+plot(x,y, 'g')
 hold off

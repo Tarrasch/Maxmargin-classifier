@@ -40,7 +40,7 @@ for i = 1:n
     end
 end
 hold on
-x = [0 100];
+x = [0 8];
 y = -(w(1)*x+b)/w(2);
-%plot(x,y)
+plot(x,y, 'g')
 hold off
