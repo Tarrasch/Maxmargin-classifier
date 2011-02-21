@@ -23,7 +23,7 @@ cvx_begin
     minimize ( delta )
     subject to
         Y.*(w'*X' - b)' >= 1 - delta;
-        abc : d >= 0;
+        d >= 0;
 %        w(1) + w(2) >= 1;
 cvx_end
 

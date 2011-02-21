@@ -44,4 +44,8 @@ hold on
 x = [0 8];
 y = (b-w(1)*x)/w(2);
 plot(x,y, 'g')
+y = (b-w(1)*x+1)/w(2);
+plot(x,y, 'c--')
+y = (b-w(1)*x-1)/w(2);
+plot(x,y, 'c--')
 hold off
