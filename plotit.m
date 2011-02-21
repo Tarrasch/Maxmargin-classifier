@@ -10,5 +10,5 @@ end
 hold on
 x = [0 8];
 y = (b-w(1)*x)/w(2);
-plot(x,y, 'g')
+plot(x,y, 'm')
 hold off
