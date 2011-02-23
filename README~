@@ -54,7 +54,7 @@ Question 3:
     are fine looking, I've plotted 3 lines, C = 0.01, 0.1 and 1 in the same
     plot, please see:
     (Gree line <=> C = 0.01, red <=> C = 1)
-    You can reproduce the screenshot by running experimentc.m
+    You can reproduce the screenshot by running experimentc.m.
 
 
 
