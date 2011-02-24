@@ -19,9 +19,8 @@ C = 1;
 % Solve optimization problem
 cvx_begin
     variable alpha(n)
-    %minimize ( sum(alpha) - sum( sum( (alpha*alpha').*(Y*Y').*(X*X')/2) ) )
-    %minimize ( sum(alpha) - )
-    maximize ( sum ( sum (alpha*alpha') ) )
+    %minimize ( sum(alpha) - sum( sum( (alpha*alpha').*(Y*Y').*(X'*X)/2) ) )
+    minimize ( sum(alpha) - )
     subject to
         alpha.*Y == 0;
         0 <= alpha;
