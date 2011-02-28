@@ -21,10 +21,10 @@ I go through it step by step.
 To be written ...
 \section{Lagrangian function}
 There will be as always 3 kinds of terms, coming from either the \textit{the objective function},\textit{a constraint} or \textit{a variable constraint}.
-\begin{equation}
-L(w, b, \xi, \mu, \nu) = \frac{1}{2} ||w||^2_2 + \sum\limits_{i=1}^n {C\xi_i - \mu_iy_i(w^Tx_i - b + \xi_i - 1) - \nu_i\xi_i}
-\end{equation}
-Can simply be rewritten to
+% \begin{equation}
+% L(w, b, \xi, \mu, \nu) = \frac{1}{2} ||w||^2_2 + \sum\limits_{i=1}^n {C\xi_i - \mu_iy_i(w^Tx_i - b + \xi_i - 1) - \nu_i\xi_i}
+% \end{equation}
+% Can simply be rewritten to
 \begin{equation}
 L(w, b, \xi, \mu, \nu) = \frac{1}{2} ||w||^2_2 + \sum\limits_{i=1}^n {C\xi_i + \mu_iy_i(b + 1 - w^Tx_i - \xi_i) - \nu_i\xi_i}
 \end{equation}
