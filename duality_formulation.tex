@@ -29,8 +29,20 @@ Can simply be rewritten to
 L(w, b, \xi, \mu, \nu) = \frac{1}{2} ||w||^2_2 + \sum\limits_{i=1}^n {C\xi_i + \mu_iy_i(b + 1 - w^Tx_i - \xi_i) - \nu_i\xi_i}
 \end{equation}
 We now derivativs for each variable-type and get an equation. There are 3 'types' of variables here, so we will get 3 equations.
+
 \subsection{Derivative with respect to w}
- 
+  \begin{equation}
+    \frac{dL}{dw} = 0 = w - \sum\limits_{i=1}^n {\mu_i y_i x_i}
+  \end{equation}
+  Here $x_i$ means the sum of the values in the \textbf{vector} $x_i$.
 \subsection{Derivative with respect to b}
+  \begin{equation}
+    \frac{dL}{db} = 0 = \sum\limits_{i=1}^n {\mu_i y_i}
+  \end{equation}
 \subsection{Derivative with respect to $\xi$}
+  \begin{equation}
+    \frac{dL}{db} = 0 = C - \mu_i - y_i
+  \end{equation}
+
+\section{Refining the lagrangian by substitution}
 \end{document}

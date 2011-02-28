@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.8.12)  28 FEB 2011 20:50
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.8.12)  28 FEB 2011 21:17
 entering extended mode
 **duality_formulation
 (./duality_formulation.tex
@@ -283,29 +283,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 24.
  [1
 
-{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./duality_formulati
-on.aux) ) 
+{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./duality_formu
+lation.aux) ) 
 Here is how much of TeX's memory you used:
- 700 strings out of 94500
- 6951 string characters out of 1176766
+ 701 strings out of 94500
+ 6968 string characters out of 1176766
  51483 words of memory out of 1000000
- 3905 multiletter control sequences out of 10000+50000
- 45632 words of font info for 44 fonts, out of 500000 for 2000
+ 3906 multiletter control sequences out of 10000+50000
+ 48767 words of font info for 45 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  29i,6n,19p,193b,226s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 49 PDF objects out of 300000
+ 52 PDF objects out of 300000
  0 named destinations out of 131072
  1 words of extra memory for PDF output out of 65536
-{/usr/share/texmf/fonts/enc/dvips/lm/cork-lm.enc}</usr/share/texmf/fon
-ts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb>
-</usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></u
-sr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmr17.pfb>
-Output written on duality_formulation.pdf (1 page, 113357 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb>{/usr/share/te
+xmf/fonts/enc/dvips/lm/cork-lm.enc}</usr/share/texmf/fonts/type1/public/lm/lmr9
+.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb
+></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr17.pfb>
+Output written on duality_formulation.pdf (2 pages, 117161 bytes).
