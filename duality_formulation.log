@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2010.8.12)  28 FEB 2011 18:37
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2010.8.12)  28 FEB 2011 18:43
 entering extended mode
 **duality_formulation.tex
 (./duality_formulation.tex
@@ -268,21 +268,27 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
 File: t1lmr.fd 2003/07/22 v1.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
  [1
 
 ] (./duality_formulation.aux) ) 
 Here is how much of TeX's memory you used:
- 676 strings out of 94501
- 6644 string characters out of 1176789
+ 693 strings out of 94501
+ 6845 string characters out of 1176789
  50483 words of memory out of 1000000
- 3889 multiletter control sequences out of 10000+50000
- 29404 words of font info for 32 fonts, out of 500000 for 2000
+ 3900 multiletter control sequences out of 10000+50000
+ 37506 words of font info for 40 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 23i,6n,19p,190b,187s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 29i,6n,19p,190b,226s stack positions out of 1500i,500n,5000p,200000b,5000s
 
-Output written on duality_formulation.dvi (1 page, 864 bytes).
+Output written on duality_formulation.dvi (1 page, 1124 bytes).
