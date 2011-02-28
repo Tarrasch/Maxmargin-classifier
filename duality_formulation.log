@@ -273,21 +273,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
- (./duality_formulation.toc)
-\tf@toc=\write3
-\openout3 = `duality_formulation.toc'.
-
  [1
 
-]
-(./duality_formulation.aux) ) 
+] (./duality_formulation.aux) ) 
 Here is how much of TeX's memory you used:
- 680 strings out of 94501
- 6713 string characters out of 1176789
+ 676 strings out of 94501
+ 6644 string characters out of 1176789
  50483 words of memory out of 1000000
- 3890 multiletter control sequences out of 10000+50000
- 32539 words of font info for 33 fonts, out of 500000 for 2000
+ 3889 multiletter control sequences out of 10000+50000
+ 29404 words of font info for 32 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  23i,6n,19p,190b,187s stack positions out of 1500i,500n,5000p,200000b,5000s
 
-Output written on duality_formulation.dvi (1 page, 960 bytes).
+Output written on duality_formulation.dvi (1 page, 864 bytes).
