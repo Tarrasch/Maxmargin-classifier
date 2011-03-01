@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.8.10)  1 MAR 2011 15:40
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.8.10)  1 MAR 2011 15:48
 entering extended mode
 **duality_formulation
 (./duality_formulation.tex
@@ -247,65 +247,180 @@ Now handling font encoding U ...
 ))
 (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2003/07/16
-) (./duality_formulation.aux)
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing OFF on input line 1900.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2004.
+(/usr/local/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+LaTeX Info: Redefining \url on input line 2143.
+\Fld@menulength=\count89
+\Field@Width=\dimen104
+\Fld@charsize=\dimen105
+\Choice@toks=\toks15
+\Field@toks=\toks16
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing OFF on input line 2633.
+Package hyperref Info: Link coloring OFF on input line 2638.
+\c@Item=\count90
+\c@Hfootnote=\count91
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
+
+(/usr/share/texmf/tex/latex/psnfss/pifont.sty
+Package: pifont 2004/09/15 PSNFSS-v9.2 Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texmf/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texmf/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\Fld@listcount=\count92
+\@outlinefile=\write3
+)
+Runaway argument?
+{Duality Forumlation of Max-Margin Classifier \author {Arash Rouhani}\ETC.
+! Paragraph ended before \title was complete.
+<to be read again> 
+                   \par 
+l.9 
+    
+? q
+OK, entering \batchmode...
+ (./duality_formulation.aux)
 \openout1 = `duality_formulation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 10.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2003/07/22 v1.1 Font defs for Latin Modern
 )
+Package hyperref Info: Link coloring OFF on input line 10.
+ (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
+\c@section@level=\count93
+)
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+ (./duality_formulation.out) (./duality_formulation.out)
+\openout3 = `duality_formulation.out'.
+
+
+! LaTeX Error: No \title given.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 11.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <6> on input line 13.
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 23.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2003/07/22 v1.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 29.
+(Font)              <10.95> on input line 23.
+
+Overfull \hbox (19.41641pt too wide) in paragraph at lines 23--24
+\T1/lmtt/m/n/10.95 chalmers . se / edu / year / 2011 / course / TDA206 _ Discre
+te _ Optimization / hw4 /
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\xi' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 44.
+
  [1
 
-{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./duality_formu
-lation.aux) ) 
+{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./duality_f
+ormulation.aux) ) 
 Here is how much of TeX's memory you used:
- 701 strings out of 94500
- 6968 string characters out of 1176766
- 52483 words of memory out of 1000000
- 3906 multiletter control sequences out of 10000+50000
- 48767 words of font info for 45 fonts, out of 500000 for 2000
+ 2390 strings out of 94500
+ 31033 string characters out of 1176766
+ 78660 words of memory out of 1000000
+ 5536 multiletter control sequences out of 10000+50000
+ 41677 words of font info for 40 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 29i,6n,19p,193b,226s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 27i,6n,39p,262b,214s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 52 PDF objects out of 300000
- 0 named destinations out of 131072
- 1 words of extra memory for PDF output out of 65536
-</usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb>{/usr/share/te
-xmf/fonts/enc/dvips/lm/cork-lm.enc}</usr/share/texmf/fonts/type1/public/lm/lmr9
-.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/fonts
-/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb
-></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type
-1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr17.pfb>
-Output written on duality_formulation.pdf (2 pages, 121310 bytes).
+ 102 PDF objects out of 300000
+ 21 named destinations out of 131072
+ 81 words of extra memory for PDF output out of 65536
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/shar
+e/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky
+/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/tex
+mf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
+mr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb>{/usr/share/texmf/
+fonts/enc/dvips/lm/cork-lm.enc}</usr/share/texmf/fonts/type1/public/lm/lmri10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmr12.pfb>
+Output written on duality_formulation.pdf (3 pages, 111874 bytes).

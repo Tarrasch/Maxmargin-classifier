@@ -2,8 +2,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
+\usepackage{hyperref}
 
-\title{Duality Forumlation of Max-Margin Classifier\footnote{This is the first time I use latex}} 
+\title{Duality Forumlation of Max-Margin Classifier
 \author{Arash Rouhani}
 
 \begin{document}
@@ -14,12 +15,12 @@
 This paper presents a short mathematical explenation of how to formulate
 the Max-Margin Classifier problem in it's dual form.
 I go through the derivation step by step by formulating the lagrangian
-function and then performing sensible steps finally reach the desired dual formulation. 
+function and then performing sensible steps to finally reach the desired dual formulation. 
 
 \end{abstract}
 
 \section{Primal formulation}
-To be written ...
+I skip formulating the primal here, and instead refer to \url{http://www.cse.chalmers.se/edu/year/2011/course/TDA206_Discrete_Optimization/hw4/exercise4.pdf}
 \section{Lagrangian function}
 There will be as always 3 kinds of terms, coming from either the \textit{the objective function},\textit{a constraint} or \textit{a variable constraint}.
 % \begin{equation}
@@ -82,5 +83,7 @@ $$ 1 \le     i \le n $$
 $\mu_i \ge 0$ Holds by definition. $C \ge \mu_i$ holds as of (4) by regulating $\nu \ge 0$
 in $\mu_i = C - \nu_i$. It's clear that we get the constraint claimed above.
 
+\section{Conclusions}
+We got the exact result we wanted.
 
 \end{document}
