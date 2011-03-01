@@ -49,4 +49,8 @@ First we substitute (4) which is clearly eliminating the $\xi$ terms.
 \begin{equation}
   L(w, b, \mu, \nu) = \frac{1}{2} ||w||^2_2 + \sum\limits_{i=1}^n {\mu_i(y_ib + 1 - y_iw^Tx_i)}
 \end{equation}
+Let's rewrite the function using $ ||w||^2_2 = w^Tw $
+\begin{equation}
+  L(w, b, \mu, \nu) = \frac{1}{2} w^T(w - \sum\limits_{i=1}^n {\mu_iy_ix_i})  + \sum\limits_{i=1}^n {\mu_i(y_ib + 1)}
+\end{equation}
 \end{document}
