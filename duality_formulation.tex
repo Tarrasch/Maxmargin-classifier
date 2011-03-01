@@ -53,4 +53,8 @@ Let's rewrite the function using $ ||w||^2_2 = w^Tw $ and other simple rewriting
 \begin{equation}
   L(w, b, \mu) = w^T(\frac{1}{2}w - \sum\limits_{i=1}^n {\mu_iy_ix_i}) + b\sum\limits_{i=1}^n {\mu_iy_i} + \sum\limits_{i=1}^n {\mu_i}
 \end{equation}
+First we use (2) and (3) in order to reduce once more.
+\begin{equation}
+  L(w, \mu) = \sum\limits_{i=1}^n {\mu_i} - \frac{1}{2} w^T \sum\limits_{i=1}^n{\mu_iy_ix_i} 
+\end{equation}
 \end{document}
