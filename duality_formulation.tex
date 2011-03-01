@@ -65,4 +65,16 @@ Now we finally rewrite the lagrangian to it's well-recognized form.
 \begin{equation}
   L(\mu) = \sum\limits_{i=1}^n {\mu_i} - \frac{1}{2} \sum\limits_{i=1}^n \sum\limits_{j=1}^n{\mu_i\mu_jy_iy_jx_i^Tx_j}
 \end{equation}
+\section{Finding the constraints}
+So far we've only retrieved the objective function out of the Lagrangian, but what about the constraints?
+Firstly we must notice that we've always known that $ \mu,\nu > 0 $
+as dual variables always have that property (otherwise it wouldn't be
+penalty to actually violate the constraints).
+The rest of the information we are going to work with is the equalities we got after the derivations in chapter 2.
+
+
+The first constraint we take is simply equation (3). The second constraint I claim is
+$$ 0 \le \mu_i \le C \forall 1 \le i \le n$$ 
+
+
 \end{document}
